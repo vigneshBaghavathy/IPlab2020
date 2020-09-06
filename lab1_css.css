@@ -1,0 +1,55 @@
+/*this is external css*/
+
+
+body{
+  text-align: center;
+}
+
+.headbar
+{
+  position: relative;
+  background-color: #6f4a8e;
+  text-align: center;
+
+}
+
+.headimage{
+  position: relative;
+  height:100px;
+  width:100px;
+}
+
+.zeromargin{
+  margin: 0;
+}
+
+.heading1{
+  font-size: 300%;
+  color: white;
+}
+
+h3{
+  color: white;
+}
+
+.ptext{
+  text-align: center;
+  font-size: 50px;
+
+}
+
+.map1{
+  position:relative;
+  border: 5px solid black;
+}
+
+.footbar{
+  margin-bottom: 0;
+  color: white;
+}
+
+
+.padding1{
+  padding-bottom: 50px;
+
+}
