@@ -1,0 +1,16 @@
+.externalcss{
+
+  background-color: #98d6ea;
+  height: 100px;
+  width: 500px;
+  position : relative;
+  padding: 40px;
+  border: 5px solid black;
+
+
+}
+
+body{
+  margin: 0;
+  background-color: #ecfbfc;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Different methods for adding css</title>
+    <link rel="stylesheet" href="typesofcss_IPLab3.css">
+
+    <style>
+      .internalcss{
+        position : relative;
+        background-color: #9d65c9;
+        height: 100px;
+        padding: 40px;
+        text-align: center;
+        width: 500px;
+        border: 5px solid black;
+        left: 580px;
+      }
+
+    </style>
+  </head>
+  <body >
+    <div class="externalcss">
+      I AM EXTERNAL CSS <br>
+      The styling of this particular division is defined using external css <br>
+      External css is defined in a seperate css file which is then linked to the html page using a link tag <br>
+    </div>
+
+
+    <div class="internalcss">
+      I AM INTERNAL CSS <br>
+      The styling of this particular division is defined using internal css <br>
+      Internal css is defines inside the head section of the html file using a tag called the style tag <br>
+
+    </div>
+
+
+
+    <div style="background-color:#d789d7; height:100px; position:relative; padding:40px; text-align:right; border:5px solid black; width:500px;">
+      I AM INLINE CSS <br>
+      The styling of this particular devision is defined using inline css <br>
+      Inline css is defined inside the particular tag where it is to be used inside the html file <br>
+
+
+    </div>
+
+
+
+  </body>
+</html>
