@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Resume Form</title>
+
+    <style>
+      nobr{
+        color: red;
+      }
+
+
+      .tittlespace{
+        text-align: center;
+      }
+
+      .bodyofform{
+        text-align: center;
+        position: relative;
+        left: 25%;
+        width: 50%;
+        border: 2px solid;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="tittlespace">
+      <header>
+        <h1>Create your own Resume in an Easy Way</h1>
+        <p class="defenition">We help you to create a simple resume by taking simple inputs from the user</p>
+        <p class="rules"><nobr>*</nobr>this is a basic resume you can customize it futher if you wish</p>
+      </header>
+    </div>
+
+    <div class="bodyofform">
+      <form class="form1" action="resumesubmit" method="post" >
+        <h3>Resume Data</h3>
+        <p>Enter all the data inorder to create a better resume.</p>
+        <hr>
+
+        <br><h4>Personal Information</h4><br>
+
+
+        <label for="fname"><nobr>*</nobr>Enter your First Name : &nbsp&nbsp&nbsp</label><br>
+        <input type="text" name="fname" required><br>
+
+        <label for="lname">&nbsp Enter your Last Name : &nbsp&nbsp&nbsp</label><br>
+        <input type="text" name="lname"><br>
+
+        <label for="emailid"><nobr>*</nobr>Enter your email ID : &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label><br>
+        <input type="email" name="emailid" required><br>
+
+        <label for="phnno"><nobr>*</nobr>Enter your Phone number : &nbsp&nbsp&nbsp</label><br>
+        <input type="text" name="phnno" required><br><br><br>
+
+        <hr>
+
+        <br><h4>Educational Information</h4><br>
+
+        <label for="school"><nobr>*</nobr>Where did you complete your schooling : &nbsp&nbsp&nbsp</label><br>
+        <input type="text" name="school" required><br>
+
+        <label for="schoolyear"><nobr>*</nobr>Enter the year you completed school education : &nbsp&nbsp&nbsp</label><br>
+        <input type="text" name="schoolyear" required><br>
+
+        <label for="higheredu"><nobr>*</nobr>Enter the name of institution in which you did higher education : &nbsp&nbsp&nbsp</label><br>
+        <input type="text" name="higheredu" required><br>
+
+        <label for="highereduyear"><nobr>*</nobr>When did you complete your higher education : &nbsp&nbsp&nbsp</label><br>
+        <input type="text" name="highereduyear" required><br><br><br>
+
+        <hr>
+        <br>
+
+        <label for="m1"><nobr>*</nobr>Enter your 10th marks :  &nbsp&nbsp&nbsp</label><br>
+        <input type="text" name="m1" required><br><br><br>
+        <label for="m2"><nobr>*</nobr>Enter your 12 th marks:  &nbsp&nbsp&nbsp</label><br>
+        <input type="text" name="m2" required><br><br><br>
+        <label for="clggrade"><nobr>*</nobr>Enter your grades: &nbsp&nbsp&nbsp</label><br>
+        <input type="text" name="clggrade" required><br><br><br>
+        
+
+        <br>
+        <hr>
+
+        <br><h4>Technology of interest</h4><br>
+
+        <label for="addqual1"><nobr>*</nobr>Enter tech name : &nbsp&nbsp&nbsp</label><br>
+        <input type="text" name="addqual1" required><br>
+        <label for="addqual2">&nbsp Enter tech name : &nbsp&nbsp&nbsp</label><br>
+        <input type="text" name="addqual2"><br>
+        <label for="addqual3">&nbsp Enter tech name : &nbsp&nbsp&nbsp</label><br>
+        <input type="text" name="addqual3"><br><br><br>
+
+        <hr>
+        <br><input type="submit" name="submit" value="Submit">&nbsp <input type="reset" name="reset" value="Reset"><br><br>
+
+
+      </form>
+
+    </div>
+
+  </body>
+</html>
